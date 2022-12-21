@@ -21,4 +21,5 @@ The opioid related open databases was accessed from Center for Disease Control a
 [Medicaid data](https://data.cms.gov/summary-statistics-on-use-and-payments/medicare-medicaid-opioid-prescribing-rates/medicaid-opioid-prescribing-rates-by-geography/data)  
 
 ### Transform
-The CDC data was in excel format, so it was first converted to CSV format. The rest of the data files were already in CSV format. The Jupyter notebook was used for python coding and for creating rich text elements explaning each step of coding. The raw data was imported in the Jupyter notebook databases from these three sources 
+The CDC data was in excel format, so it was first converted to CSV format. The rest of the data files were already in CSV format. The Jupyter notebook was used for python coding and for creating rich text elements explaning each step of coding. The raw data was imported in the Jupyter notebook databases from these three sources. 
+To ensure the consistency in the nomenclature of all three databases, 
