@@ -22,4 +22,6 @@ The opioid related open databases was accessed from Center for Disease Control a
 
 ### Transform
 The CDC data was in excel format, so it was first converted to CSV format. The rest of the data files were already in CSV format. The Jupyter notebook was used for python coding and for creating rich text elements explaning each step of coding. The raw data was imported in the Jupyter notebook databases from these three sources. 
-The data was filterd for year 2020 and the States. For all the three dataframes, the columns which are of interest were retained. The columns were further renamed to ensure the consistency in the nomenclature of all three databases. The duplicates and missing data were removed. The data was formatted to standardized format. The index was reset to the name of the States' 
+The data was filterd for year 2020 and the States. For all the three dataframes, the columns which are of interest were retained. The columns were further renamed to ensure the consistency in the nomenclature of all three databases. The duplicates and missing data were removed. The data was formatted to standardized format. The index was reset to the name of the States'.
+
+### Load
