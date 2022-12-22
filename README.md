@@ -21,9 +21,14 @@ The opioid related open databases was accessed from Center for Disease Control a
 [Medicaid data](https://data.cms.gov/summary-statistics-on-use-and-payments/medicare-medicaid-opioid-prescribing-rates/medicaid-opioid-prescribing-rates-by-geography/data)  
 
 ### Transform
-* jupyter notebook to run panda 
-* The CDC data was in excel format, so it was first converted to CSV format. The rest of the data files were already in CSV format. The Jupyter notebook was used for python coding and for creating rich text elements explaning each step of coding. The raw data was imported in the Jupyter notebook databases from these three sources. 
-The data was filterd for year 2020 and the States. For all the three dataframes, the columns which are of interest were retained. The columns were further renamed to ensure the consistency in the nomenclature of all three databases. The duplicates and missing data were removed. The data was formatted to standardized format. The percentages were removed from ,expanded decimal range, lower case, removed commas from number format, wording in lowercase to be compatible with SQLThe index was reset to the name of the States'. AFter every formatting the dataframe was counted to ensure seamless 
+* Jupyter notebook was used to run panda to create dataframe and for creating rich text elements explaning each step of coding.
+* The Sudors CDC data was in excel format, so it was first converted to CSV format. The rest two data files were already in CSV format. The raw data was imported in the Jupyter notebook databases from these three sources. 
+* The data was filterd for the year 2020 and the States names. 
+* For all the three dataframes, the columns which are of interest were retained. The columns were further renamed to ensure the consistency in the nomenclature of all three databases. 
+* The duplicates and missing data were removed. 
+* The data was formatted to standardized format - percentages were removed from ,expanded decimal range, removed commas from number format, column header were reworded in lowercase to be compatible with pgadmin.
+* AFter every formatting, the "count" command is run to ensure seamless transition of all the data
+* The index was reset to the name of the States. 
 
 ### Load
-Using pgadmin, the three dataframes were used to create three tables in PostgreSQL 15. The three tables were representing CDC drug overdose, Medicare, and Medicaid data.  
+Using pgadmin, the three dataframes were used to create three relational tables. The three tables were representing CDC drug overdose, Medicare, and Medicaid data.  
