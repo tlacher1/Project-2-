@@ -77,5 +77,12 @@ CREATE TABLE SUDORS_Fatal_Overdose_Data(
 	);
 
 Loaded the dataset into the tables - se images of three relational tables below
+
 ![image](https://user-images.githubusercontent.com/109105878/209028745-75bb8853-bd11-4ad3-9b35-ca22edbc7373.png)
+
+
+![image](https://user-images.githubusercontent.com/109105878/209028814-3f22600c-b8e9-4249-a688-bf6ba9049248.png)
+
+![image](https://user-images.githubusercontent.com/109105878/209028824-a5caab63-018e-47cb-acae-f9105387a53b.png)
+
 
