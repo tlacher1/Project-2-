@@ -36,15 +36,25 @@ Using pgadmin, the three dataframes were used to create three relational tables.
 Coding for Creating tables in pgadmin
 
 CREATE TABLE MEDICARE_OPIOID_PRESCRIBING_RATE(
-	id text,	
+
+	id text,
+	
 	year int,
+	
 	Breakout text,
+	
 	Tot_Opioid_Clms bigint,
+	
 	LA_Tot_Opioid_Clms bigint,
+	
 	LA_Opioid_Prscrbng_Rate decimal(4,2),
+	
 	LA_Opioid_Prscrbng_Rate_5Y_Chg decimal(4,2),
+	
 	LA_Opioid_Prscrbng_Rate_1Y_Chg decimal(4,2)
+	
 );
+
 CREATE TABLE MEDICAID_OPIOID_PRESCRIBING_RATE(
 	id text,	
 	year int,
