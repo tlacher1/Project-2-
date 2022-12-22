@@ -31,7 +31,7 @@ The opioid related open databases was accessed from Center for Disease Control a
 * The index was reset to the name of the States. 
 
 ### Load
-Using pgadmin, the three dataframes were used to create three relational tables. The three tables were representing CDC drug overdose, Medicare, and Medicaid data. Depending on research question, the data query can be run for aggregation of the three tables.  
+Using pgadmin, the three dataframes were used to create three relational tables. The three tables were representing CDC drug overdose, Medicare, and Medicaid data. Depending on research question, the data query can be run for aggregation of the three tables or individual table. For example to examine the relationship between Opioid overdose death ( Sudors table) and Opioid presecription rates ( Medicare and Medicaid table), the data query can be run to aggregate the required data from three tables.  
 
 ***Coding for Creating tables in pgadmin***
 
