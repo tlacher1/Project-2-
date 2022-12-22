@@ -56,34 +56,63 @@ CREATE TABLE MEDICARE_OPIOID_PRESCRIBING_RATE(
 );
 
 CREATE TABLE MEDICAID_OPIOID_PRESCRIBING_RATE(
-	id text,	
+
+	id text,
+	
 	year int,
+	
 	Plan_Type text,
+	
 	Tot_Opioid_Clms bigint,
+	
 	LA_Tot_Opioid_Clms bigint,
+	
 	LA_Opioid_Prscrbng_Rate decimal(4,2),
+	
 	LA_Opioid_Prscrbng_Rate_5Y_Chg decimal(4,2),
+	
 	LA_Opioid_Prscrbng_Rate_1Y_Chg decimal(4,2)
+	
 );
+
 CREATE TABLE SUDORS_Fatal_Overdose_Data(
+
 	id TEXT,
+	
 	year INT,
+	
 	alldrug_deaths INT,
+	
 	opioids_deaths INT,
+	
 	opioids_rate decimal(10,5),
+	
 	rxopioids_deaths INT,
+	
 	rxopioids_rate decimal(10,5),
+	
 	opioids_percent decimal(10,5),
+	
 	male_deaths INT,
+	
 	male_percent decimal(10,5),
+	
 	female_deaths INT,
+	
 	female_percent decimal(10,5),
+	
 	black_nh_deaths INT,
+	
 	black_nh_percent decimal(10,5),
+	
 	white_nh_deaths INT,
+	
 	white_nh_percent decimal(10,5),
+	
 	hisp_deaths INT,
+	
 	hisp_percent decimal(10,5)
+	
 	);
 
 Loaded the dataset into the tables - see images of three relational tables below
