@@ -21,7 +21,7 @@ The opioid related open databases was accessed from Center for Disease Control a
 [Medicaid data](https://data.cms.gov/summary-statistics-on-use-and-payments/medicare-medicaid-opioid-prescribing-rates/medicaid-opioid-prescribing-rates-by-geography/data)  
 
 ### Transform
-* Jupyter notebook was used to run panda to create dataframe and for creating rich text elements explaning each step of coding.
+* In Jupyter notebook, we used panda to read in the csv files, create the dataframes and comment on each step of coding process.
 * The Sudors CDC data was in excel format, so it was first converted to CSV format. The rest two data files were already in CSV format. The raw data was imported in the Jupyter notebook databases from these three sources. 
 * The data was filterd for the year 2020 and the States names. 
 * For all the three dataframes, the columns which are of interest were retained. The columns were further renamed to ensure the consistency in the nomenclature of all three databases. 
