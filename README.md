@@ -23,11 +23,11 @@ The opioid related open databases was accessed from Center for Disease Control a
 ### Transform
 * In Jupyter notebook, we used panda to read in the csv files, create the dataframes and comment on each step of coding process.
 * The Sudors CDC data was in excel format, so it was first converted to CSV format. The rest two data files were already in CSV format. The raw data was imported in the Jupyter notebook databases from these three sources. 
-* The data was filterd for the year 2020 and the States names. 
+* The data was filtered for the year 2020 and States names. 
 * For all the three dataframes, the columns which are of interest were retained. The columns were further renamed to ensure the consistency in the nomenclature of all three databases. 
 * The duplicates and missing data were removed. 
 * The data was formatted to standardized format - percentages were removed from ,expanded decimal range, removed commas from number format, column header were reworded in lowercase to be compatible with pgadmin.
-* AFter every formatting, the "count" command is run to ensure seamless transition of all the data
+* After every formatting, the "count" command is run to ensure seamless transition of all the data
 * The index was reset to the name of the States. 
 
 ### Load
