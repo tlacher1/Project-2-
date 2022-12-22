@@ -32,3 +32,46 @@ The opioid related open databases was accessed from Center for Disease Control a
 
 ### Load
 Using pgadmin, the three dataframes were used to create three relational tables. The three tables were representing CDC drug overdose, Medicare, and Medicaid data. Depending on research question, the data query can be run for aggregation of the three tables.  
+
+Coding for Creating tables in pgadmin
+
+CREATE TABLE MEDICARE_OPIOID_PRESCRIBING_RATE(
+	id text,	
+	year int,
+	Breakout text,
+	Tot_Opioid_Clms bigint,
+	LA_Tot_Opioid_Clms bigint,
+	LA_Opioid_Prscrbng_Rate decimal(4,2),
+	LA_Opioid_Prscrbng_Rate_5Y_Chg decimal(4,2),
+	LA_Opioid_Prscrbng_Rate_1Y_Chg decimal(4,2)
+);
+CREATE TABLE MEDICAID_OPIOID_PRESCRIBING_RATE(
+	id text,	
+	year int,
+	Plan_Type text,
+	Tot_Opioid_Clms bigint,
+	LA_Tot_Opioid_Clms bigint,
+	LA_Opioid_Prscrbng_Rate decimal(4,2),
+	LA_Opioid_Prscrbng_Rate_5Y_Chg decimal(4,2),
+	LA_Opioid_Prscrbng_Rate_1Y_Chg decimal(4,2)
+);
+CREATE TABLE SUDORS_Fatal_Overdose_Data(
+	id TEXT,
+	year INT,
+	alldrug_deaths INT,
+	opioids_deaths INT,
+	opioids_rate decimal(10,5),
+	rxopioids_deaths INT,
+	rxopioids_rate decimal(10,5),
+	opioids_percent decimal(10,5),
+	male_deaths INT,
+	male_percent decimal(10,5),
+	female_deaths INT,
+	female_percent decimal(10,5),
+	black_nh_deaths INT,
+	black_nh_percent decimal(10,5),
+	white_nh_deaths INT,
+	white_nh_percent decimal(10,5),
+	hisp_deaths INT,
+	hisp_percent decimal(10,5)
+	);
